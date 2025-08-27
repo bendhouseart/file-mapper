@@ -1,6 +1,6 @@
 [project]
 name = "file-mapper"
-version = "0.0.0"
+version = "2.0.0"
 description = "File mapping utility for BIDS data processing"
 readme = "README.md"
 requires-python = ">=3.9"
