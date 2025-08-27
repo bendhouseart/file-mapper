@@ -1,12 +1,6 @@
 """
 File Mapper Package
-
-A utility for mapping files from source directories to ''destination'' directories
-via symbolic links. Primarily used to re-arrange a dataset into a different structure
-without incurring an addtitional storage cost
 """
-
-__version__ = "0.1.0"
 
 # Use absolute imports to avoid pytest issues
 try:
