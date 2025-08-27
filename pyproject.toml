@@ -3,14 +3,13 @@ name = "file-mapper"
 version = "0.1.0"
 description = "File mapping utility for BIDS data processing"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
-    "pyqt5>=5.15.11",
+    "pytest>=8.4.1",
 ]
 
 [project.scripts]
 filemapper = "filemapper:main"
-filemapper-gui = "gui:main"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
@@ -22,4 +21,5 @@ py-modules = ["filemapper", "gui", "destination_window_gui"]
 [dependency-groups]
 dev = [
     "black>=25.1.0",
+    "pytest>=8.4.1",
 ]
