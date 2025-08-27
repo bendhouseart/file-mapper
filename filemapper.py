@@ -14,7 +14,7 @@ import sys
 
 # gives a description over the purpose of the program
 PROG = "File Mapper"
-VERSION = "1.4.0"
+VERSION = "2.0.0"
 
 program_desc = """%(prog)s v%(ver)s:
 Script to make a new directory and map files from a source directory. Files
