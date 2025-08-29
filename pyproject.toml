@@ -1,0 +1,25 @@
+[project]
+name = "file-mapper"
+version = "2.0.0"
+description = "File mapping utility for BIDS data processing"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pytest>=8.4.1",
+]
+
+[project.scripts]
+filemapper = "filemapper:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["filemapper"]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "pytest>=8.4.1",
+]
